@@ -10,13 +10,14 @@ size of the window and our web page may response to that re-sizing the elements.
 Built With
 
 HTML and CSS
+
 👤 Author1
 
-GitHub: @FdI96
+GitHub: https://github.com/FdI96
 
 👤 Author2
 
-GitHub: @Ismael
+GitHub: @https://github.com/ixboy
 
 🤝 Contributing
 
