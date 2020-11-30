@@ -1,0 +1,18 @@
+.top-part {
+  display: flex;
+  justify-content: space-between;
+}
+
+.rigth-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 15%;
+}
+
+.left-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 25%;
+}
