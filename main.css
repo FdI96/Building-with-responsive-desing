@@ -2,6 +2,65 @@
   display: none; 
 }
 
+.news {
+    height: 30%;
+    margin: auto;
+    width: 80%;
+}
+
+.main-container {
+    height: 3000px;
+    margin: auto;
+
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  width: 200px;
+  height: 250px;
+  padding: 10px;
+
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 50%;
+  justify-content: space-around;
+  width: 80%;
+}
+
+.flex-container li {
+    list-style-type: none;
+}
+
+.litle-part {
+    display: flex;
+    flex-direction: row;
+
+}
+
+.litle-part p {
+    width: 30%;
+    margin: 0%;
+    margin-right: 0%;
+    position: relative;
+    left: 30px;
+}
+
+.bck-img {
+  height: 45%;
+  width: auto;
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/11/The-Official-Cyber-Monday-Mac-Bundle-Ft.-Parallels-Pro-Luminar-4-540x270.jpg");  
+  background-size: contain;
+}
+
+.bck-img h4 {
+    margin: 0;
+}
+
 .rigth-top {
     
 }
@@ -9,13 +68,13 @@
 .left-top {
  
 /*MIDDLE SCREEN BREAK POINT */
-@media (min-width 500px) {
+/* @media (min-width 500px) {
 
 
   
-}
+} */
 /* FULL SCREEN BREAK POINT */
-@media (min-width) {
+/* @media (min-width) {
   .top-part {
     display: flex;
     justify-content: space-between;
@@ -33,5 +92,5 @@
     justify-content: space-between;
     width: 25%;
   }
-}
+} */
 
