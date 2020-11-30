@@ -1,10 +1,11 @@
-Positioning and Floating Elements
+Building with responsive desing.
 
-Microverse Project 1: Recreate the New York Times Article. 
+Microverse Project 2: Building with responsive desing. 
 
-This project helps us understand a way of create a web page called "Responsive Design", utilizing media querys, and all the concepts that
-we learned about HTML and CSS like flexbox, float and grid. So using Responsive Design we may be able to change the size of the window and
-our web page may response to that re-sizing the elements.
+This project helps us understand a way of create a web page called "Responsive Design",
+utilizing media querys, and all the concepts that we learned about HTML and CSS like
+flexbox, float and grid. So using Responsive Design we may be able to change the
+size of the window and our web page may response to that re-sizing the elements.
 
 Built With
 
@@ -15,7 +16,8 @@ GitHub: @FdI96
 
 👤 Author2
 
-GitHub: @
+GitHub: @Ismael
+
 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
