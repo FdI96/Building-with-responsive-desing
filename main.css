@@ -1,23 +1,17 @@
 .top-part {
-  display: flex;
-  justify-content: space-between;
+  display: none; 
 }
 
 .rigth-top {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 15%;
+    
 }
 
 .left-top {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 25%;
-}
+ 
 /*MIDDLE SCREEN BREAK POINT */
-@media (min-width) {
+@media (min-width 500px) {
+
+
   
 }
 /* FULL SCREEN BREAK POINT */
