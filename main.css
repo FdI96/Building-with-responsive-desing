@@ -28,8 +28,7 @@
   flex-direction: row;
   flex-wrap: wrap;
   height: 50%;
-  justify-content: space-around;
-  width: 80%;
+  width: 100%;
 }
 
 .flex-container li {
