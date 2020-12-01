@@ -1,4 +1,255 @@
+#main-nav {
+  display: none;
+}
 
+body * {
+  text-decoration: none;
+  list-style: none;
+}
+
+/* Start the styling of the imgs and mobilebar */
+.mobilenav-container {
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+}
+
+.dropdown {
+  display: block;
+}
+
+.three-img {
+  display: flex;
+  flex-direction: column;
+  height: 600px;
+  justify-content: space-between;
+}
+
+.paddingart {
+  padding: 5px;
+  height: 100%;
+  width: 100%;
+}
+
+.top-container,
+.mid-container,
+.down-container {
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.top-container {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2013/02/cyberlocks-730x422.jpg");
+}
+
+.mid-container {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/11/Untitled-design-2020-11-30T173709.270-796x417.png");
+}
+
+.down-container {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/11/1-copy-8-796x417.jpg");
+}
+
+.dateimg {
+  display: none;
+}
+
+.headingtitle {
+  font-size: 20px;
+  color: white;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 20px;
+}
+
+.footimg-link {
+  padding-left: 20px;
+}
+
+.footimg-link a {
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+}
+
+.listimg {
+  padding-left: 20px;
+  font-size: 12px;
+  color: grey;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+}
+
+li a {
+  text-decoration: none;
+  color: gray;
+}
+
+/* Ends the styling of the imgs and mobilebar */
+
+/* Start the styling of the "Latest News Section */
+
+.main-container {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.news {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-container li {
+  padding: 5px;
+}
+
+.flex-container {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.card h4 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.card {
+  display: flex;
+  flex-direction: row;
+  width: auto;
+}
+
+.bck-img a {
+  display: block;
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/11/Untitled-design-1-1-516x270.png");
+  height: 75px;
+  width: 75px;
+  margin-bottom: 5px;
+}
+
+.bck-img {
+  width: auto;
+  padding-right: 10px;
+}
+
+.card-bottom {
+  display: flex;
+  flex-direction: column;
+  width: auto;
+}
+
+.litle-part span {
+  padding-left: 10px;
+}
+
+.litle-part p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.litle-part {
+  display: flex;
+  flex-direction: row;
+}
+
+/* Here end the styling of the "Latest News section" */
+
+/* Here start the styling of the "Latest founding rounds on Index.co" section */
+
+.funding-sec header {
+  height: 7.625rem;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+}
+
+.funding-sec h2 {
+  margin-bottom: 0;
+}
+
+.funding-sec a {
+  padding-top: 0.4rem;
+}
+
+.vertical-container1 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: 50%;
+  width: 100%;
+}
+
+.vertical-container1 .vertical-child .grandChild {
+  position: relative;
+}
+
+.vertical-container1 a .grandChild h4 {
+  color: #fff;
+  background-color: #ff4422;
+  padding-left: 84px;
+  margin: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.vertical-container1 .vertical-child .grandChild img {
+  width: 3rem;
+  height: 3rem;
+  max-width: 3rem;
+  min-width: 3rem;
+  min-height: 3rem;
+  max-height: 3rem;
+  position: absolute;
+  top:0;
+  left: 0;
+  margin: .7rem;
+  z-index: 10;
+}
+
+.vertical-child {
+  height: 15.375rem;
+}
+
+.four {
+  display: none;
+}
+
+.inside-child h5 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.inside-child h6 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.inside-child {
+  background-color: rgba(255, 68, 34, 0.08);
+  padding: 10px 16px 10px 84px;
+}
+
+.a-verticalchild {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.a-verticalchild a {
+  display: block;
+  margin-bottom: 0.3125rem;
+  padding-left: 1rem;
+}
+
+
+/* Here end the styling of the "Latest founding rounds on Index.co" section */
 
 
 
@@ -129,4 +380,3 @@ body *{
     width: 25%;
   }
 } */
-
