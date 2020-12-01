@@ -1,3 +1,8 @@
+
+
+
+
+/*
 body *{
   list-style: none;
   text-decoration: none;
@@ -17,7 +22,6 @@ body *{
 .funding-sec {
     height: 3000px;
     margin: auto;
-
 }
 
 .card,
@@ -29,7 +33,9 @@ body *{
   padding: 10px;
 
 }
+/* ISMAEL */
 
+/*
 .flex-container,
 .vertical-container1 {
   display: flex;
@@ -47,9 +53,8 @@ body *{
   color: #fff;
   background-color: #ff4422;
   text-align: center;
-
-
 }
+
 .vertical-container1 .vertical-child .grandChild img {
   width: 3rem;
   height: 3rem;
@@ -64,22 +69,23 @@ body *{
   z-index: 10;
 }
 
+/* ISMAEL */
+/*
 .flex-container li {
-    list-style-type: none;
+  list-style-type: none;
 }
 
 .litle-part {
-    display: flex;
-    flex-direction: row;
-
+  display: flex;
+  flex-direction: row;
 }
 
 .litle-part p {
-    width: 30%;
-    margin: 0%;
-    margin-right: 0%;
-    position: relative;
-    left: 30px;
+  width: 30%;
+  margin: 0%;
+  margin-right: 0%;
+  position: relative;
+  left: 30px;
 }
 
 .bck-img {
@@ -90,7 +96,7 @@ body *{
 }
 
 .bck-img h4 {
-    margin: 0;
+  margin: 0;
 }
 
 .rigth-top {
