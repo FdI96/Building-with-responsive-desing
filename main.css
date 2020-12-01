@@ -213,11 +213,12 @@ li a {
   z-index: 10;
 }
 
+
 .vertical-child {
   height: 15.375rem;
 }
 
-.four {
+.hide {
   display: none;
 }
 
@@ -250,6 +251,8 @@ li a {
 
 
 /* Here end the styling of the "Latest founding rounds on Index.co" section */
+
+/* Here start 
 
 
 
