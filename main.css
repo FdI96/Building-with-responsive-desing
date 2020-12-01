@@ -249,6 +249,59 @@ li a {
   padding-left: 1rem;
 }
 
+.imgHolder {
+  position: relative;
+}
+
+.imgHolder div {
+  position: absolute;
+  top: 75%;
+  left: 5%;
+}
+
+.imgHolder div * {
+  margin: 2px;
+  font-size: 14px;
+}
+.imgHolder div p,
+.imgHolder div p a {
+  color: lightgray;
+}
+
+.secondNews .imgHolder img {
+  height: 20rem; 
+  width: 100%; 
+}
+#imgHolder img{
+  width: 6rem;
+  height: 5.5rem;
+  margin-top: 0;
+  padding: 2px;
+}
+
+.headerHolder {
+  display: flex;
+}
+
+.headerHolder * {
+  margin: 0px;
+}
+
+.headerHolder header:first-of-type {
+  padding: 10px 14px  0;
+} 
+
+.secondNews ul li {
+  font-size: 12px;
+  height: 1.875rem;
+  padding: 6px 0 6px 14px;
+  font-weight: 400;
+  list-style: circle;
+  list-style-type: disc;
+  color: orange;
+}
+
+
 
 /* Here end the styling of the "Latest founding rounds on Index.co" section */
 
