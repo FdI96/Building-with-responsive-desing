@@ -516,8 +516,35 @@ footer {
 
 .flex-container {
   display: grid;
+  display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 1rem solid;
+}
+.card {
+  display: flex;
+  flex-direction: column
 }
 
+.bck-img a {
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  line-height: 3rem;
+}
+
+.card-bottom h4 {
+  font-size: .8rem;
+  font-weight: 500;
+}
+
+.litle-part a,
+.litle-part span p {
+  font-size: .6rem;
+  color: #aaa;
+  padding-top: 6px;
+  font-weight: 500;
+}
 
 }
 
