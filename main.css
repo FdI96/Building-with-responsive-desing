@@ -14,8 +14,10 @@ body * {
   top: 0;
   right: 0;
   overflow: hidden;
-  border: black solid 2px;
+  background-color: #fff;
+  z-index: 1000;
 }
+
 .mobilenav-container {
   display: flex;
   justify-content: space-between;
@@ -318,6 +320,7 @@ li a {
   margin-top: 0;
   margin-bottom: 0;
 }
+
 .deals-h {
   display: flex;
   justify-content: space-between;
@@ -389,6 +392,7 @@ footer {
   color: grey;
   text-align: center;
 }
+
 .containerInTopFooter {
   padding: 0 15px 0;
   justify-content: center;
@@ -424,6 +428,101 @@ footer {
   margin-bottom: 20px;
   padding: 0;
 }
+
+/* Here we start the first Media Querie */
+
+@media(min-width: 768px) {
+  body * {
+    text-decoration: none;
+    list-style: none;
+  }
+
+  #mobile-nav {
+    display: none;
+  }
+
+  #main-nav {
+    display: contents;
+  }
+
+  .top-part {
+    display: flex;
+    justify-content: space-between;
+    height: 1%;
+    margin: 0;
+    padding: 0;
+    background-color: #131313
+  }
+
+  .right-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 15%;
+  }
+
+  .left-top li {
+    padding: 0.3125rem;
+  }
+
+  .left-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 25%;
+  }
+
+  .bottom-part li {
+    list-style-type: none;
+    padding: 10px;
+  }
+
+  .bottom-part ul {
+    display: flex;
+    flex-direction: row;
+    height: 70%;
+  }
+
+  .bottom-part {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 99%;
+  }
+
+  .three-img {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+      "t t m"
+      "t t d";
+    height: auto;
+  }
+
+  .first {
+    grid-area: t;
+  }
+
+  .second {
+    grid-area: m;
+  }
+
+}
+
+.third {
+  grid-area: d;
+}
+
+.flex-container {
+  display: grid;
+}
+
+
+}
+
+
+
 
 
 /* Here end the styling of the "Latest founding rounds on Index.co" section */
