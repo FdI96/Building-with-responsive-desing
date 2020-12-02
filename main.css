@@ -207,12 +207,11 @@ li a {
   min-height: 3rem;
   max-height: 3rem;
   position: absolute;
-  top:0;
+  top: 0;
   left: 0;
-  margin: .7rem;
+  margin: 0.7rem;
   z-index: 10;
 }
-
 
 .vertical-child {
   height: 15.375rem;
@@ -263,16 +262,18 @@ li a {
   margin: 2px;
   font-size: 14px;
 }
+
 .imgHolder div p,
 .imgHolder div p a {
   color: lightgray;
 }
 
 .secondNews .imgHolder img {
-  height: 20rem; 
-  width: 100%; 
+  height: 20rem;
+  width: 100%;
 }
-#imgHolder img{
+
+#imgHolder img {
   width: 6rem;
   height: 5.5rem;
   margin-top: 0;
@@ -288,8 +289,8 @@ li a {
 }
 
 .headerHolder header:first-of-type {
-  padding: 10px 14px  0;
-} 
+  padding: 10px 14px 0;
+}
 
 .secondNews ul li {
   font-size: 12px;
@@ -300,8 +301,6 @@ li a {
   list-style-type: disc;
   color: orange;
 }
-
-
 
 /* Here end the styling of the "Latest founding rounds on Index.co" section */
 
