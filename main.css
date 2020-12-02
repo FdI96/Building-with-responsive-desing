@@ -8,6 +8,14 @@ body * {
 }
 
 /* Start the styling of the imgs and mobilebar */
+#mobile-nav {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  overflow: hidden;
+  border: black solid 2px;
+}
 .mobilenav-container {
   display: flex;
   justify-content: space-between;
@@ -123,7 +131,7 @@ li a {
 .card {
   display: flex;
   flex-direction: row;
-  width: auto;
+  width: 100%;
 }
 
 .bck-img a {
@@ -299,6 +307,68 @@ li a {
   list-style: circle;
   list-style-type: disc;
   color: orange;
+}
+
+.details {
+  text-align: right;
+}
+
+.deals-h h2 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.deals-h {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.litle-part-deals p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.price-linetrough {
+  text-decoration: line-through;
+  color: #aaa;
+  font-size: 12px;
+  vertical-align: baseline;
+}
+
+.litle-part-deals span:first-child {
+  margin-right: 5px;
+}
+
+.litle-part-deals {
+  display: flex;
+  flex-direction: row;
+  padding-top: 4px;
+}
+
+.deals-list {
+  padding-left: 0;
+  width: 100%;
+}
+
+.deals-card h4 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.deals-card .bck-img a {
+  display: block;
+  background-image: url("https://cdnp1.stackassets.com/4c6357549bbe196eac7a2a550f3cf2a380f39e44/store/7d5851d962ea8a62a7e9939f0efebc686b69d83821b63060d3109048021b/sale_19399_primary_image.jpg");
+  height: 75px;
+  width: 75px;
+  margin-bottom: 5px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.deals-card {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
 }
 
 
