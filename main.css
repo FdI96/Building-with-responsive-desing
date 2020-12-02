@@ -523,7 +523,6 @@ footer {
   
   .flex-container {
     display: grid;
-    display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto;
     gap: 1rem solid;
@@ -596,21 +595,32 @@ footer {
     grid-template-rows: 5;
     gap: 20px;
   }
-
-  .deals-list {
-    display:grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr;
-    gap: 10px;
-    height: auto;
-    margin-top: 0;
-    margin-bottom: 0;
+  
+  .deals ul {
+    padding-left: 0;
   }
 
+  .deals {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .deals-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+  }
+  .card-bottom h4 {
+    font-size: 20px;
+  }
+  .deals-card .bck-img a {
+    height: 12rem;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
   .deals-card {
-    grid-area: deal;
-    width: auto;
-    height: auto;
+    display: flex;
+    flex-direction: column;
   }
 
 }
