@@ -371,6 +371,15 @@ li a {
   width: 100%;
 }
 
+.topUl,
+.botUl {
+  display: flex;
+  flex-direction: row;
+}
+
+.topUl {
+  justify-content: center;
+}
 
 
 /* Here end the styling of the "Latest founding rounds on Index.co" section */
