@@ -372,14 +372,57 @@ li a {
   width: 100%;
 }
 
+footer {
+  background-color: black;
+}
+
+.topFooter {
+  height: 10.0625rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.containerInTopFooter p {
+  margin: 0;
+  color: grey;
+  text-align: center;
+}
+.containerInTopFooter {
+  padding: 0 15px 0;
+  justify-content: center;
+  align-items: center;
+  height: 91px;
+}
+
+.topUl img {
+  width: 40px;
+  height: 40px;
+}
+
 .topUl,
 .botUl {
   display: flex;
   flex-direction: row;
+  margin-top: 0;
+  margin-bottom: 0;
+  justify-content: center;
+}
+
+.botUl li {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.botUl {
+  font-size: 13px;
+  padding-left: 0;
 }
 
 .topUl {
-  justify-content: center;
+  margin-bottom: 20px;
+  padding: 0;
 }
 
 
