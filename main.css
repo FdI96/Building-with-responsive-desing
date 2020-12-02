@@ -183,6 +183,15 @@ li a {
 .funding-sec h2 {
   margin-bottom: 0;
 }
+.funding-sec header h2 a,
+.fundingSec-links a {
+  color: #f42;
+}
+
+.fundingSec-links {
+  display: flex;
+  flex-direction: column;
+}
 
 .funding-sec a {
   padding-top: 0.4rem;
@@ -431,7 +440,7 @@ footer {
 
 /* Here we start the first Media Querie */
 
-@media(min-width: 768px) {
+@media (min-width: 768px) {
   body * {
     text-decoration: none;
     list-style: none;
@@ -508,45 +517,106 @@ footer {
     grid-area: m;
   }
 
-}
-
-.third {
-  grid-area: d;
-}
-
-.flex-container {
-  display: grid;
-  display: grid;
+  .third {
+    grid-area: d;
+  }
+  
+  .flex-container {
+    display: grid;
+    display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto;
     gap: 1rem solid;
-}
-.card {
-  display: flex;
-  flex-direction: column
+  }
+  .card {
+    display: flex;
+    flex-direction: column
+  }
+  
+  .bck-img a {
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    line-height: 3rem;
+  }
+  
+  .card-bottom h4 {
+    font-size: .8rem;
+    font-weight: 500;
+  }
+  
+  .litle-part a,
+  .litle-part span p {
+    font-size: .6rem;
+    color: #aaa;
+    padding-top: 6px;
+    font-weight: 500;
+  }
+
+  .funding-sec header h2 a {
+    color: #f42;
+  }
+
+  .funding-sec header {
+    height: auto;
+  }
+  .fundingSec-links a {
+    padding-right: 10px;
+    border-right: solid 1px red;
+    padding-left: 10px;
+    color: #f42;
+    
+  }
+
+  .fundingSec-links {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    height: auto;
+  }
+
+  .vertical-container1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: 
+        "vert vert vert";
+    height: auto;
+    gap: 20px;
+  }
+
+  .a-verticalchild,
+  .a-ul {
+    background-color: rgba(255,68,34,.03);
+  }
+
+  .secondNews {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 5;
+    gap: 20px;
+  }
+
+  .deals-list {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 10px;
+    height: auto;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .deals-card {
+    grid-area: deal;
+    width: auto;
+    height: auto;
+  }
+
 }
 
-.bck-img a {
-  width: 100%;
-  background-size: cover;
-  background-repeat: no-repeat;
-  line-height: 3rem;
-}
 
-.card-bottom h4 {
-  font-size: .8rem;
-  font-weight: 500;
-}
 
-.litle-part a,
-.litle-part span p {
-  font-size: .6rem;
-  color: #aaa;
-  padding-top: 6px;
-  font-weight: 500;
-}
-
-}
 
 
 
