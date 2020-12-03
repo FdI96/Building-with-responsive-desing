@@ -323,7 +323,9 @@ li a {
 
 .headerHolder {
   display: flex;
+  background-color: rgba(255,68,34,.06);
 }
+
 
 .headerHolder * {
   margin: 0px;
@@ -333,7 +335,7 @@ li a {
   padding: 10px 14px 0;
 }
 
-.secondNews ul li {
+.footer-list li {
   font-size: 12px;
   height: 1.875rem;
   padding: 6px 0 6px 14px;
@@ -341,6 +343,11 @@ li a {
   list-style: circle;
   list-style-type: disc;
   color: orange;
+}
+
+.footer-list li h4 {
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .details {
@@ -583,6 +590,7 @@ footer {
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto;
     gap: 1rem solid;
+    gap: 10px;
   }
 
   .card {
@@ -595,6 +603,7 @@ footer {
     background-size: cover;
     background-repeat: no-repeat;
     line-height: 3rem;
+    height: 8.4375rem;
   }
 
   .card-bottom h4 {
@@ -683,6 +692,12 @@ footer {
     gap: 20px;
   }
 
+  .footer-list {
+    padding-left: 10px;
+  }
+  .footer-list li {
+    padding: 0;
+  }  
   .deals ul {
     padding-left: 0;
   }
@@ -717,9 +732,53 @@ footer {
   .headerpart img {
     display: none;
   }
+
+  #main-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    height: 70px;
+  }
+
+  .bothNavs,
+  .bottom-part,
+  .top-part {
+    height: auto;
+  }
+
+  .topLogo a img {
+    height: 69px;
+  }
+  main {
+    margin-top: 60px;
+  }
 }
 
 @media (min-width: 1024px) {
+  #main-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    height: 70px;
+  }
+  
+  main {
+    margin-top: 70px;
+  }
+  .bothNavs,
+  .bottom-part,
+  .top-part {
+    height: auto;
+  }
+
+  .topLogo a img {
+    height: 69px;
+  }
+  
   .veryBigDiv {
     width: 84%;
     margin: 0 auto;
@@ -785,6 +844,14 @@ footer {
     grid-row: 1fr 1fr 1fr;
   }
 
+  .bck-img {
+    padding: 0;
+  }
+
+  .bck-img a {
+    margin-bottom: 5px;
+  }
+
   .deals-list {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -820,6 +887,11 @@ footer {
   .funding-sec {
     margin: auto;
   }
+
+
+  
+
+  /* I wrote from Here */
 
   .bothNavs .top-part .left-top  ul li ul {
     display: none;
