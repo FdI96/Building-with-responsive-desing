@@ -1,3 +1,6 @@
+.headerpart {
+  display: none;
+}
 #main-nav {
   display: none;
 }
@@ -442,6 +445,12 @@ footer {
 /* Here we start the first Media Querie */
 
 @media (min-width: 768px) {
+  .headerpart {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  
   body * {
     text-decoration: none;
     list-style: none;
@@ -701,12 +710,51 @@ footer {
     padding-right: 20px;
   }
 
+  .bigimglink {
+    z-index: 5;
+  }
+  
+  .headerpart img {
+    position: relative;
+    right: 50px;
+    z-index: 4;
+  }
+  .headerpart {
+    position: relative;
+    bottom: 200px;
+  }
+  .dateimg {
+    display: contents;
+    color: white;
+    z-index: 7;
+  }
+  .top-container {
+    z-index: 0;
+  }
+  .paddingart {
+    position: relative;
+    padding: 0;
+  }
+
+  .red-gradient {
+    background-image: linear-gradient(to bottom right, red, transparent);
+    background-size: contain, cover;
+    z-index: 2;
+    width:  100%;
+    height: 100%;
+    position: absolute;
+  }
+
   .main-container,
   .funding-sec,
   .secondNews,
   .deals {
     width: auto;
     height: auto;
+  }
+
+  .three-img {
+    gap: 5px;
   }
 
   .flex-container {
