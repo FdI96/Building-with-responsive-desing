@@ -798,7 +798,7 @@ footer {
   }
 
   .hide {
-    display: grid;
+    display: block;
     margin-top: 0;
   }
 
@@ -816,9 +816,7 @@ footer {
     max-width: 90%;
     max-width: 100%;
   }
-  .a-ul a ul{
-    max-width: 100%;
-  }
+  
   .funding-sec {
     margin: auto;
   }
