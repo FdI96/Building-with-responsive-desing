@@ -588,6 +588,7 @@ footer {
     display: flex;
     flex-direction: row;
     margin: 0%;
+    background-color: white;
   }
 
   .bottom-part {
@@ -790,6 +791,34 @@ footer {
   main {
     margin-top: 60px;
   }
+
+  .see button {
+    cursor: pointer;
+    border: none;
+    background-color: black;
+    color: gray;
+  }
+
+  .dropdownContent {
+    display: none;
+    position: absolute;
+    background-color: black;
+    max-width: 100%;
+    max-height: 100%;
+    z-index: 20;
+  }
+
+  .dropdownContent a {
+    color: gray;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-size: 12px;
+  }
+
+  .see:hover .dropdownContent {
+    display: block;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -809,6 +838,10 @@ footer {
   .bottom-part,
   .top-part {
     height: auto;
+  }
+
+  .bottom-part {
+    background-color: white;
   }
 
   .topLogo a img {
@@ -924,31 +957,36 @@ footer {
     margin: auto;
   }
 
+  .see button {
+    cursor: pointer;
+    border: none;
+    background-color: black;
+    color: gray;
+  }
 
 
 
   /* I wrote from Here */
 
   .bothNavs .top-part .left-top  ul li ul {
+  .dropdownContent {
     display: none;
-    color: red;
+    position: absolute;
+    background-color: black;
+    max-width: 100%;
+    max-height: 100%;
+    z-index: 20;
+  }
+
+  .dropdownContent a {
+    color: gray;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
     font-size: 12px;
-    width: 100%;
-    background-color: #131313;
-    height: 60px;
-
   }
 
-  .bothNavs .top-part .left-top  ul li ul a {
-    color: #f42;
-
-  }
-
-
-  .bothNavs .top-part .left-top  ul:hover ul {
+  .see:hover .dropdownContent {
     display: block;
   }
-
-
-
 }
