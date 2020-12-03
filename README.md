@@ -30,9 +30,9 @@ size of the window and our web page may response to that re-sizing the elements.
 
 👤 **Author2**
 
-- GitHub: [@githubhandle](https://github.com/ixboy)
-- Twitter: [@twitterhandle](https://twitter.com/ismaelixboy)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/ismael-antonio-0b7712114/)
+- GitHub: [@ixboy](https://github.com/ixboy)
+- Twitter: [@ismaelixboy](https://twitter.com/ismaelixboy)
+- LinkedIn: [ismael-antonio](https://www.linkedin.com/in/ismael-antonio-0b7712114/)
 
 ## SHOW YOUR SUPPORT
 Give a * if you like the project
