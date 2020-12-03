@@ -7,6 +7,7 @@ body * {
   list-style: none;
 }
 
+
 /* Start the styling of the imgs and mobilebar */
 #mobile-nav {
   position: fixed;
@@ -202,8 +203,8 @@ li a {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  height: 50%;
-  width: 100%;
+  height: auto;
+  width: 90%;
 }
 
 .vertical-container1 .vertical-child .grandChild {
@@ -237,6 +238,16 @@ li a {
   height: 15.375rem;
 }
 
+.vertical-child div a {
+  font-size: 12px;
+  color: grey;
+}
+
+.vertical-child div a:hover {
+  color:black;
+
+}
+
 .hide {
   display: none;
 }
@@ -259,13 +270,21 @@ li a {
 .a-verticalchild {
   display: flex;
   flex-direction: column;
-  padding: 1rem;
+  padding: .4rem;
 }
 
 .a-verticalchild a {
   display: block;
   margin-bottom: 0.3125rem;
   padding-left: 1rem;
+}
+.a-ul {
+  max-width: 90%;
+}
+.a-ul a ul{
+  margin-left: 0px;
+  padding-left: 16px;
+  margin-bottom: 18px;
 }
 
 .imgHolder {
@@ -637,19 +656,15 @@ footer {
     flex-direction: row;
     height: auto;
   }
-
   .vertical-container1 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: auto;
-    grid-template-areas:
-      "vert vert vert";
     height: auto;
-    gap: 20px;
+    gap: 1rem;
   }
 
   .a-verticalchild,
-  .a-ul {
+  .a-ul{
     background-color: rgba(255, 68, 34, .03);
   }
 
@@ -695,10 +710,8 @@ footer {
 
 @media (min-width: 1024px) {
   .veryBigDiv {
-    width: 60%;
-    margin: auto;
-    padding-left: 20px;
-    padding-right: 20px;
+    width: 86%;
+    margin: 0 auto;
   }
 
   .main-container,
@@ -726,6 +739,41 @@ footer {
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows: 1fr 1fr;
   }
+
+  .main-container,
+  .secondNews,
+  .deals {
+    width: auto;
+  }
+
+  .hide {
+    display: grid;
+    margin-top: 0;
+  }
+
+  .vertical-container1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 4rem;
+    width: 100%;
+    height: 300px;
+    gap: .5rem;
+    box-sizing: border-box;
+  }
+
+  .a-ul {
+    max-width: 90%;
+    max-width: 100%;
+  }
+  .a-ul a ul{
+    max-width: 100%;
+  }
+  .funding-sec {
+    margin: auto;
+  }
+  
+
+
 
 
 }
