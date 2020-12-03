@@ -12,6 +12,18 @@ body * {
 
 
 /* Start the styling of the imgs and mobilebar */
+
+#mobile-nav .search-menu {
+  display: flex;
+  align-items: center;
+}
+
+#mobile-nav .search-menu img:nth-of-type(1) {
+  width: 35px;
+  height: 30px;
+  align-self: center;
+}
+
 #mobile-nav {
   position: fixed;
   left: 0;
