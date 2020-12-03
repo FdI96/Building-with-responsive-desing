@@ -718,9 +718,58 @@ footer {
   .headerpart img {
     display: none;
   }
+
+  #main-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    height: 70px;
+  }
+
+  .bothNavs,
+  .bottom-part,
+  .top-part {
+    height: auto;
+  }
+
+  .topLogo a img {
+    height: 69px;
+  }
+  main,
+  .veryBigDiv {
+    position: relative;
+    top: 60px;
+  }
 }
 
 @media (min-width: 1024px) {
+  #main-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    height: 70px;
+  }
+
+  .bothNavs,
+  .bottom-part,
+  .top-part {
+    height: auto;
+  }
+
+  .topLogo a img {
+    height: 69px;
+  }
+
+  main,
+  .veryBigDiv {
+    position: relative;
+    top: 60px;
+  }
+  
   .veryBigDiv {
     width: 86%;
     margin: 0 auto;
@@ -786,6 +835,14 @@ footer {
     grid-row: 1fr 1fr 1fr;
   }
 
+  .bck-img {
+    padding: 0;
+  }
+
+  .bck-img a {
+    margin-bottom: 5px;
+  }
+
   .deals-list {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -823,9 +880,4 @@ footer {
   .funding-sec {
     margin: auto;
   }
-  
-
-
-
-
 }
