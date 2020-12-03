@@ -142,7 +142,7 @@ li a {
 
 .bck-img a {
   display: block;
-  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/11/Untitled-design-1-1-516x270.png");
+  background-image: url("https://cdnp0.stackassets.com/0799bf00352de2d2111fa7580a4aeb4d5e36829c/store/831574f40ca85b498631ae2881f81d02cd9eedd411afd5c0c8f689969ad6/sale_19040_primary_image.jpg");
   height: 75px;
   width: 75px;
   margin-bottom: 5px;
@@ -396,16 +396,29 @@ li a {
   margin-top: 0;
   margin-bottom: 0;
 }
+/* deals*/
 
-.deals-card .bck-img a {
+.lastdeal{
   display: block;
-  background-image: url("https://cdnp1.stackassets.com/4c6357549bbe196eac7a2a550f3cf2a380f39e44/store/7d5851d962ea8a62a7e9939f0efebc686b69d83821b63060d3109048021b/sale_19399_primary_image.jpg");
+  background-image: url("https://cdnp0.stackassets.com/0799bf00352de2d2111fa7580a4aeb4d5e36829c/store/831574f40ca85b498631ae2881f81d02cd9eedd411afd5c0c8f689969ad6/sale_19040_primary_image.jpg");
   height: 75px;
   width: 75px;
   margin-bottom: 5px;
   background-size: contain;
   background-repeat: no-repeat;
 }
+
+.deals-card .bck-img a {
+  display: block;
+  background-image: url("https://cdnp0.stackassets.com/0799bf00352de2d2111fa7580a4aeb4d5e36829c/store/831574f40ca85b498631ae2881f81d02cd9eedd411afd5c0c8f689969ad6/sale_19040_primary_image.jpg");
+  height: 75px;
+  width: 75px;
+  margin-bottom: 5px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+
 
 .deals-card {
   display: flex;
@@ -889,7 +902,7 @@ footer {
   }
 
 
-  
+
 
   /* I wrote from Here */
 
