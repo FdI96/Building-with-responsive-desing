@@ -695,8 +695,8 @@ footer {
 
 @media (min-width: 1024px) {
   .veryBigDiv {
-    margin-left: 200px;
-    margin-right: 200px;
+    width: 60%;
+    margin: auto;
     padding-left: 20px;
     padding-right: 20px;
   }
@@ -706,20 +706,26 @@ footer {
   .secondNews,
   .deals {
     width: auto;
+    height: auto;
   }
 
-  .vertical-container1 {
-    display: flex;
-    flex-direction: row;
+  .flex-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-row: 1fr 1fr;
   }
 
-  .vertical-child {
-    width: 25%;
+  .secondNews {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-row: 1fr 1fr 1fr;
   }
 
-  .funding-sec {
-    display: flex;
-    flex-direction: column;
+  .deals-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
   }
+
 
 }
