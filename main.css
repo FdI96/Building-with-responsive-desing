@@ -820,8 +820,26 @@ footer {
   .funding-sec {
     margin: auto;
   }
-  
 
+  .bothNavs .top-part .left-top  ul li ul {
+    display: none;
+    color: red;
+    font-size: 12px;
+    width: 100%;
+    background-color: #131313;
+    height: 60px;
+
+  }
+
+  .bothNavs .top-part .left-top  ul li ul a {
+    color: #f42;
+
+  }
+
+
+  .bothNavs .top-part .left-top  ul:hover ul {
+    display: block;
+  }
 
 
 
