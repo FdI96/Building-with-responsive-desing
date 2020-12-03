@@ -199,7 +199,6 @@ li a {
 }
 
 .funding-sec a {
-  padding-top: 0.4rem;
 }
 
 .vertical-container1 {
@@ -719,7 +718,7 @@ footer {
 
 @media (min-width: 1024px) {
   .veryBigDiv {
-    width: 86%;
+    width: 84%;
     margin: 0 auto;
   }
 
