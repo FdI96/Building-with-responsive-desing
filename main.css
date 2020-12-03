@@ -715,6 +715,9 @@ footer {
     flex-direction: column;
   }
 
+  .headerpart img {
+    display: none;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -731,6 +734,7 @@ footer {
     position: relative;
     right: 50px;
     z-index: 4;
+    display: block;
   }
   .headerpart {
     position: relative;
