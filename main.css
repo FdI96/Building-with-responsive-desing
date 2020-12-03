@@ -552,6 +552,7 @@ footer {
     display: flex;
     flex-direction: row;
     margin: 0%;
+    background-color: white;
   }
 
   .bottom-part {
@@ -801,6 +802,10 @@ footer {
   .bottom-part,
   .top-part {
     height: auto;
+  }
+
+  .bottom-part {
+    background-color: white;
   }
 
   .topLogo a img {
