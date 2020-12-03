@@ -5,9 +5,10 @@
   display: none;
 }
 
-body * {
+body *{
   text-decoration: none;
   list-style: none;
+  color: #ff4422
 }
 
 
@@ -266,9 +267,19 @@ li a {
   display: none;
 }
 
-.inside-child h5 {
+.card-bottom h4, .card-bottom p{
+  color:black;
+}
+/*                     colors       */
+.secondNews h4,
+.secondNews h3 a {
+  color: #fff;
+}
+
+.inside-child *{
   margin-top: 0;
   margin-bottom: 0;
+  color:black
 }
 
 .inside-child h6 {
@@ -354,7 +365,7 @@ li a {
   font-weight: 400;
   list-style: circle;
   list-style-type: disc;
-  color: orange;
+  color: #ff4422
 }
 
 .footer-list li h4 {
