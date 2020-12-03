@@ -183,6 +183,7 @@ li a {
 .funding-sec h2 {
   margin-bottom: 0;
 }
+
 .funding-sec header h2 a,
 .fundingSec-links a {
   color: #f42;
@@ -467,7 +468,7 @@ footer {
     justify-content: space-around;
   }
 
-  .topLogo img{
+  .topLogo img {
     height: 80px;
     width: 100px;
   }
@@ -492,7 +493,7 @@ footer {
     padding-left: 10px;
   }
 
-  .right-top ul{
+  .right-top ul {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -581,30 +582,31 @@ footer {
     padding-top: 6px;
     font-weight: 500;
   }
-  
+
   .flex-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto;
     gap: 1rem solid;
   }
+
   .card {
     display: flex;
     flex-direction: column
   }
-  
+
   .bck-img a {
     width: 100%;
     background-size: cover;
     background-repeat: no-repeat;
     line-height: 3rem;
   }
-  
+
   .card-bottom h4 {
     font-size: .8rem;
     font-weight: 500;
   }
-  
+
   .litle-part a,
   .litle-part span p {
     font-size: .6rem;
@@ -620,12 +622,13 @@ footer {
   .funding-sec header {
     height: auto;
   }
+
   .fundingSec-links a {
     padding-right: 10px;
     border-right: solid 1px red;
     padding-left: 10px;
     color: #f42;
-    
+
   }
 
   .fundingSec-links {
@@ -639,15 +642,15 @@ footer {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto;
-    grid-template-areas: 
-        "vert vert vert";
+    grid-template-areas:
+      "vert vert vert";
     height: auto;
     gap: 20px;
   }
 
   .a-verticalchild,
   .a-ul {
-    background-color: rgba(255,68,34,.03);
+    background-color: rgba(255, 68, 34, .03);
   }
 
   .secondNews {
@@ -656,7 +659,7 @@ footer {
     grid-template-rows: 5;
     gap: 20px;
   }
-  
+
   .deals ul {
     padding-left: 0;
   }
@@ -665,20 +668,24 @@ footer {
     padding-left: 20px;
     padding-right: 20px;
   }
+
   .deals-list {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 20px;
   }
+
   .card-bottom h4 {
     font-size: 20px;
   }
+
   .deals-card .bck-img a {
     height: 12rem;
     width: 100%;
     background-size: cover;
     background-repeat: no-repeat;
   }
+
   .deals-card {
     display: flex;
     flex-direction: column;
@@ -703,7 +710,7 @@ footer {
 
   .vertical-container1 {
     display: flex;
-    flex-direction: row; 
+    flex-direction: row;
   }
 
   .vertical-child {
@@ -716,144 +723,3 @@ footer {
   }
 
 }
-
-
-
-
-
-
-
-
-/* Here end the styling of the "Latest founding rounds on Index.co" section */
-
-/* Here start 
-
-
-
-/*
-body *{
-  list-style: none;
-  text-decoration: none;
-}
-
-.top-part {
-  display: none; 
-}
-
-.news {
-    height: 30%;
-    margin: auto;
-    width: 80%;
-}
-
-.main-container,
-.funding-sec {
-    height: 3000px;
-    margin: auto;
-}
-
-.card,
-.vertical-child {
-  display: flex;
-  flex-direction: column;
-  width: 200px;
-  height: 250px;
-  padding: 10px;
-
-}
-/* ISMAEL */
-
-/*
-.flex-container,
-.vertical-container1 {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  height: 50%;
-  width: 100%;
-}
-
-.vertical-container1 .vertical-child .grandChild {
-  position: relative;
-}
-
-.vertical-container1 a .grandChild h4 {
-  color: #fff;
-  background-color: #ff4422;
-  text-align: center;
-}
-
-.vertical-container1 .vertical-child .grandChild img {
-  width: 3rem;
-  height: 3rem;
-  max-width: 3rem;
-  min-width: 3rem;
-  min-height: 3rem;
-  max-height: 3rem;
-  position: absolute;
-  top:0;
-  left: 0;
-  margin: .7rem;
-  z-index: 10;
-}
-
-/* ISMAEL */
-/*
-.flex-container li {
-  list-style-type: none;
-}
-
-.litle-part {
-  display: flex;
-  flex-direction: row;
-}
-
-.litle-part p {
-  width: 30%;
-  margin: 0%;
-  margin-right: 0%;
-  position: relative;
-  left: 30px;
-}
-
-.bck-img {
-  height: 45%;
-  width: auto;
-  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/11/The-Official-Cyber-Monday-Mac-Bundle-Ft.-Parallels-Pro-Luminar-4-540x270.jpg");  
-  background-size: contain;
-}
-
-.bck-img h4 {
-  margin: 0;
-}
-
-.rigth-top {
-    }
-
- 
-/*MIDDLE SCREEN BREAK POINT */
-/* @media (min-width 500px) {
-
-
-  
-} */
-/* FULL SCREEN BREAK POINT */
-/* @media (min-width) {
-  .top-part {
-    display: flex;
-    justify-content: space-between;
-  }
-  .rigth-top {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 15%;
-  }
-      
-  .left-top {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 25%;
-  }
-} */
