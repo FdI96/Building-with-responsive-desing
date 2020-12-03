@@ -1,11 +1,12 @@
 .headerpart {
   display: none;
 }
+
 #main-nav {
   display: none;
 }
 
-body *{
+body * {
   text-decoration: none;
   list-style: none;
   color: #ff4422
@@ -211,8 +212,7 @@ li a {
   flex-direction: column;
 }
 
-.funding-sec a {
-}
+.funding-sec a {}
 
 .vertical-container1 {
   display: flex;
@@ -259,7 +259,7 @@ li a {
 }
 
 .vertical-child div a:hover {
-  color:black;
+  color: black;
 
 }
 
@@ -267,19 +267,21 @@ li a {
   display: none;
 }
 
-.card-bottom h4, .card-bottom p{
-  color:black;
+.card-bottom h4,
+.card-bottom p {
+  color: black;
 }
+
 /*                     colors       */
 .secondNews h4,
 .secondNews h3 a {
   color: #fff;
 }
 
-.inside-child *{
+.inside-child * {
   margin-top: 0;
   margin-bottom: 0;
-  color:black
+  color: black
 }
 
 .inside-child h6 {
@@ -303,10 +305,12 @@ li a {
   margin-bottom: 0.3125rem;
   padding-left: 1rem;
 }
+
 .a-ul {
   max-width: 90%;
 }
-.a-ul a ul{
+
+.a-ul a ul {
   margin-left: 0px;
   padding-left: 16px;
   margin-bottom: 18px;
@@ -346,7 +350,7 @@ li a {
 
 .headerHolder {
   display: flex;
-  background-color: rgba(255,68,34,.06);
+  background-color: rgba(255, 68, 34, .06);
 }
 
 
@@ -419,9 +423,10 @@ li a {
   margin-top: 0;
   margin-bottom: 0;
 }
+
 /* deals*/
 
-.lastdeal{
+.lastdeal {
   display: block;
   background-image: url("https://cdnp0.stackassets.com/0799bf00352de2d2111fa7580a4aeb4d5e36829c/store/831574f40ca85b498631ae2881f81d02cd9eedd411afd5c0c8f689969ad6/sale_19040_primary_image.jpg");
   height: 75px;
@@ -511,7 +516,7 @@ footer {
     flex-direction: row;
     justify-content: space-around;
   }
-  
+
   body * {
     text-decoration: none;
     list-style: none;
@@ -710,6 +715,7 @@ footer {
     flex-direction: row;
     height: auto;
   }
+
   .vertical-container1 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -718,7 +724,7 @@ footer {
   }
 
   .a-verticalchild,
-  .a-ul{
+  .a-ul {
     background-color: rgba(255, 68, 34, .03);
   }
 
@@ -732,9 +738,11 @@ footer {
   .footer-list {
     padding-left: 10px;
   }
+
   .footer-list li {
     padding: 0;
-  }  
+  }
+
   .deals ul {
     padding-left: 0;
   }
@@ -788,6 +796,7 @@ footer {
   .topLogo a img {
     height: 69px;
   }
+
   main {
     margin-top: 60px;
   }
@@ -830,10 +839,11 @@ footer {
     z-index: 10;
     height: 70px;
   }
-  
+
   main {
     margin-top: 70px;
   }
+
   .bothNavs,
   .bottom-part,
   .top-part {
@@ -847,7 +857,7 @@ footer {
   .topLogo a img {
     height: 69px;
   }
-  
+
   .veryBigDiv {
     width: 84%;
     margin: 0 auto;
@@ -856,25 +866,29 @@ footer {
   .bigimglink {
     z-index: 5;
   }
-  
+
   .headerpart img {
     position: relative;
     right: 50px;
     z-index: 4;
     display: block;
   }
+
   .headerpart {
     position: relative;
     bottom: 200px;
   }
+
   .dateimg {
     display: contents;
     color: white;
     z-index: 7;
   }
+
   .top-container {
     z-index: 0;
   }
+
   .paddingart {
     position: relative;
     padding: 0;
@@ -884,7 +898,7 @@ footer {
     background-image: linear-gradient(to bottom right, red, transparent);
     background-size: contain, cover;
     z-index: 2;
-    width:  100%;
+    width: 100%;
     height: 100%;
     position: absolute;
   }
@@ -952,7 +966,7 @@ footer {
     max-width: 90%;
     max-width: 100%;
   }
-  
+
   .funding-sec {
     margin: auto;
   }
@@ -968,25 +982,25 @@ footer {
 
   /* I wrote from Here */
 
-  .bothNavs .top-part .left-top  ul li ul {
-  .dropdownContent {
-    display: none;
-    position: absolute;
-    background-color: black;
-    max-width: 100%;
-    max-height: 100%;
-    z-index: 20;
-  }
+  .bothNavs .top-part .left-top ul li ul {
+    .dropdownContent {
+      display: none;
+      position: absolute;
+      background-color: black;
+      max-width: 100%;
+      max-height: 100%;
+      z-index: 20;
+    }
 
-  .dropdownContent a {
-    color: gray;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    font-size: 12px;
-  }
+    .dropdownContent a {
+      color: gray;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+      font-size: 12px;
+    }
 
-  .see:hover .dropdownContent {
-    display: block;
+    .see:hover .dropdownContent {
+      display: block;
+    }
   }
-}
