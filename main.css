@@ -9,7 +9,8 @@
 body * {
   text-decoration: none;
   list-style: none;
-  color: #ff4422
+  color: #ff4422;
+  overflow-x: hidden;
 }
 
 
@@ -211,8 +212,6 @@ li a {
   display: flex;
   flex-direction: column;
 }
-
-.funding-sec a {}
 
 .vertical-container1 {
   display: flex;
@@ -520,23 +519,20 @@ footer {
   body * {
     text-decoration: none;
     list-style: none;
+    overflow-x: hidden;
   }
 
   #mobile-nav {
     display: none;
   }
 
-  #main-nav {
-    display: flex;
-    flex-direction: row;
-  }
 
   .bothNavs ul {
     padding-left: 0;
   }
 
   .bothNavs {
-    height: 80px;
+    height: 50px;
     width: 100%;
     display: flex;
     flex-direction: column;
@@ -556,7 +552,6 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    height: 50%;
     margin: 0;
     padding: 0;
     background-color: #131313;
@@ -572,7 +567,7 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 15%;
+    width: 100%;
     margin: 0;
   }
 
@@ -580,7 +575,8 @@ footer {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 25%;
+    width: 100%;
+    height: 100%;
     margin: 0;
   }
 
@@ -594,13 +590,16 @@ footer {
     flex-direction: row;
     margin: 0%;
     background-color: white;
+    width: 100%;
+    height: 30px;
   }
 
   .bottom-part {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    height: 50%;
+    height: 30px;
+    width: 100%;
   }
 
   .three-img {
@@ -779,23 +778,34 @@ footer {
   }
 
   #main-nav {
+    display: flex;
+    flex-direction: row;
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
     z-index: 10;
-    height: 70px;
+    height: 100px;
   }
 
-  .bothNavs,
-  .bottom-part,
   .top-part {
-    height: auto;
+    height: 30px;
+    width: auto;
+  }
+  .bottom-part li {
+    overflow-y: hidden;
   }
 
   .topLogo a img {
-    height: 69px;
+    height: auto;
   }
+  .topLogo a {
+    height: 100px;
+  }
+  .topLogo {
+    overflow-y: hidden;
+  }
+ 
 
   main {
     margin-top: 60px;
@@ -815,6 +825,7 @@ footer {
     max-width: 100%;
     max-height: 100%;
     z-index: 20;
+    overflow-y: hidden;
   }
 
   .dropdownContent a {
@@ -823,6 +834,7 @@ footer {
     text-decoration: none;
     display: block;
     font-size: 12px;
+    z-index: 21;
   }
 
   .see:hover .dropdownContent {
@@ -831,27 +843,32 @@ footer {
 }
 
 @media (min-width: 1024px) {
-  #main-nav {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 10;
-    height: 70px;
+  body {
+    overflow-x: hidden;
   }
 
   main {
     margin-top: 70px;
   }
 
-  .bothNavs,
-  .bottom-part,
   .top-part {
-    height: auto;
+    height: 30px;
+  }
+  .bottom-part li {
+    overflow-y: hidden;
+  }
+  .bottom-part {
+    height: 40px;
+    background-color: white;
   }
 
-  .bottom-part {
-    background-color: white;
+  .bothNavs {
+    height: 50px;
+    overflow-y: hidden;
+  }
+
+  .topLogo {
+    overflow-y: hidden;
   }
 
   .topLogo a img {
@@ -913,6 +930,7 @@ footer {
 
   .three-img {
     gap: 5px;
+    overflow-y: hidden;
   }
 
   .flex-container {
@@ -977,30 +995,24 @@ footer {
     background-color: black;
     color: gray;
   }
-
-
-
-  /* I wrote from Here */
-
-  .bothNavs .top-part .left-top ul li ul {
-    .dropdownContent {
-      display: none;
-      position: absolute;
-      background-color: black;
-      max-width: 100%;
-      max-height: 100%;
-      z-index: 20;
-    }
-
-    .dropdownContent a {
-      color: gray;
-      padding: 12px 16px;
-      text-decoration: none;
-      display: block;
-      font-size: 12px;
-    }
-
-    .see:hover .dropdownContent {
-      display: block;
-    }
+  .dropdownContent {
+    display: none;
+    position: absolute;
+    background-color: black;
+    z-index: 20;
+    overflow-y: hidden;
   }
+
+  .dropdownContent a {
+    color: gray;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-size: 12px;
+  }
+
+  .see:hover .dropdownContent {
+    display: block;
+  }
+  
+}
