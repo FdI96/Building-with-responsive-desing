@@ -46,6 +46,11 @@ body * {
   z-index: 10;
 }
 
+.secondNews .imgHolder img {
+  height: 20rem;
+  width: 100%;
+}
+
 #mobile-nav .search-menu img:nth-of-type(1) {
   width: 35px;
   height: 30px;
@@ -264,6 +269,22 @@ li a {
   height: 15.375rem;
 }
 
+.fundingSec-links a {
+  padding-right: 10px;
+  border-right: solid 1px red;
+  padding-left: 10px;
+  color: #f42;
+}
+
+.funding-sec header h2 a {
+  color: #f42;
+}
+
+.imgHolder div p,
+.imgHolder div p a {
+  color: lightgray;
+}
+
 .vertical-child div a:hover {
   color: black;
 }
@@ -301,7 +322,7 @@ li a {
 .a-verticalchild {
   display: flex;
   flex-direction: column;
-  padding: .4rem;
+  padding: 0.4rem;
 }
 
 .a-verticalchild a {
@@ -333,16 +354,6 @@ li a {
 .imgHolder div * {
   margin: 2px;
   font-size: 14px;
-}
-
-.imgHolder div p,
-.imgHolder div p a {
-  color: lightgray;
-}
-
-.secondNews .imgHolder img {
-  height: 20rem;
-  width: 100%;
 }
 
 #imgHolder img {
@@ -700,20 +711,9 @@ footer {
     font-size: 12px;
     color: grey;
   }
-  .funding-sec header h2 a {
-    color: #f42;
-  }
-
+ 
   .funding-sec header {
     height: auto;
-  }
-
-  .fundingSec-links a {
-    padding-right: 10px;
-    border-right: solid 1px red;
-    padding-left: 10px;
-    color: #f42;
-
   }
 
   .fundingSec-links {
