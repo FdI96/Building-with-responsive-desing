@@ -13,7 +13,6 @@ body {
 body * {
   text-decoration: none;
   list-style: none;
-  color: #f42;
   overflow-x: hidden;
 }
 
@@ -60,7 +59,7 @@ body * {
   z-index: 10;
 }
 
-#imgHolder img {
+.imgHolder1 img {
   width: 6rem;
   height: 5.5rem;
   margin-top: 0;
@@ -218,6 +217,8 @@ li a {
 
 .litle-part span {
   padding-left: 10px;
+  font-size: 0.6rem;
+  color: gray;
 }
 
 .litle-part p {
@@ -326,7 +327,7 @@ li a {
 }
 
 .card-bottom h4 {
-  margin-left: 18px;
+  margin-left: 10px;
 }
 
 .deals-card h4 {
