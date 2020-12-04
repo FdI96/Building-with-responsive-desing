@@ -40,6 +40,13 @@ body * {
   height: 40px;
 }
 
+.imgHolder1 img {
+  width: 6rem;
+  height: 5.5rem;
+  margin-top: 0;
+  padding: 2px;
+}
+
 .secondNews .imgHolder img {
   height: 20rem;
   width: 100%;
@@ -57,13 +64,6 @@ body * {
   left: 0;
   margin: 0.7rem;
   z-index: 10;
-}
-
-.imgHolder1 img {
-  width: 6rem;
-  height: 5.5rem;
-  margin-top: 0;
-  padding: 2px;
 }
 
 #mobile-nav .search-menu img:nth-of-type(1) {
