@@ -12,16 +12,19 @@ body * {
   color: #ff4422;
   overflow-x: hidden;
 }
+
 #mainFooter,
 .containerInTopFooter,
-.topFooter{
+.topFooter {
   width: 100%;
   margin: 0;
   padding: 0;
 }
+
 .topFooter {
   background-color: #131313;
 }
+
 /* Start the styling of the imgs and mobilebar */
 
 #mobile-nav .search-menu {
@@ -280,7 +283,7 @@ li a {
   color: black;
 }
 
-.card-bottom h4{
+.card-bottom h4 {
   margin-left: 18px;
 }
 
@@ -520,7 +523,7 @@ footer {
   padding: 0;
 }
 
-.niceNew .footer-list{
+.niceNew .footer-list {
   padding: 0;
 }
 
@@ -809,6 +812,7 @@ footer {
     height: 30px;
     width: auto;
   }
+
   .bottom-part li {
     overflow-y: hidden;
   }
@@ -816,13 +820,15 @@ footer {
   .topLogo a img {
     height: auto;
   }
+
   .topLogo a {
     height: 100px;
   }
+
   .topLogo {
     overflow-y: hidden;
   }
- 
+
 
   main {
     margin-top: 60px;
@@ -871,9 +877,11 @@ footer {
   .top-part {
     height: 30px;
   }
+
   .bottom-part li {
     overflow-y: hidden;
   }
+
   .bottom-part {
     height: 40px;
     background-color: white;
@@ -1019,6 +1027,7 @@ footer {
     background-color: black;
     color: gray;
   }
+
   .dropdownContent {
     display: none;
     position: absolute;
@@ -1038,5 +1047,5 @@ footer {
   .see:hover .dropdownContent {
     display: block;
   }
-  
+
 }
