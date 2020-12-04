@@ -9,6 +9,7 @@
 body {
   margin: 0;
 }
+
 body * {
   text-decoration: none;
   list-style: none;
@@ -35,6 +36,16 @@ body * {
   align-items: center;
 }
 
+.topUl img {
+  width: 40px;
+  height: 40px;
+}
+
+.secondNews .imgHolder img {
+  height: 20rem;
+  width: 100%;
+}
+
 .vertical-container1 .vertical-child .grandChild img {
   width: 3rem;
   height: 3rem;
@@ -49,9 +60,11 @@ body * {
   z-index: 10;
 }
 
-.secondNews .imgHolder img {
-  height: 20rem;
-  width: 100%;
+#imgHolder img {
+  width: 6rem;
+  height: 5.5rem;
+  margin-top: 0;
+  padding: 2px;
 }
 
 #mobile-nav .search-menu img:nth-of-type(1) {
@@ -239,6 +252,13 @@ li a {
   padding-left: 1rem;
 }
 
+.fundingSec-links a {
+  padding-right: 10px;
+  border-right: solid 1px red;
+  padding-left: 10px;
+  color: #f42;
+}
+
 .secondNews h4,
 .secondNews h3 a {
   color: #fff;
@@ -250,13 +270,42 @@ li a {
   left: 5%;
 }
 
-.vertical-child div a:hover {
+.litle-part-deals p {
+  margin: 0 0 0 16px;
+}
+
+.card-bottom h4,
+.card-bottom p {
   color: black;
 }
 
-.fundingSec-links a,
+.containerInTopFooter p {
+  margin: 0;
+  color: grey;
+  text-align: center;
+}
+
+.imgHolder div p,
+.imgHolder div p a {
+  color: lightgray;
+}
+
 .funding-sec header h2 a {
   color: #f42;
+}
+
+.deals-card .bck-img a {
+  display: block;
+  background-image: url("https://cdnp0.stackassets.com/0799bf00352de2d2111fa7580a4aeb4d5e36829c/store/831574f40ca85b498631ae2881f81d02cd9eedd411afd5c0c8f689969ad6/sale_19040_primary_image.jpg");
+  height: 75px;
+  width: 75px;
+  margin-bottom: 5px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.vertical-child div a:hover {
+  color: black;
 }
 
 .fundingSec-links {
@@ -276,13 +325,18 @@ li a {
   position: relative;
 }
 
-.card-bottom h4,
-.card-bottom p {
-  color: black;
-}
-
 .card-bottom h4 {
   margin-left: 18px;
+}
+
+.deals-card h4 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.footer-list li h4 {
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .vertical-container1 a .grandChild h4 {
@@ -296,26 +350,6 @@ li a {
 
 .vertical-child {
   height: 15.375rem;
-}
-
-.fundingSec-links a {
-  padding-right: 10px;
-  border-right: solid 1px red;
-  padding-left: 10px;
-  color: #f42;
-}
-
-.funding-sec header h2 a {
-  color: #f42;
-}
-
-.imgHolder div p,
-.imgHolder div p a {
-  color: lightgray;
-}
-
-.vertical-child div a:hover {
-  color: black;
 }
 
 .hide {
@@ -344,12 +378,6 @@ li a {
   padding: 0.4rem;
 }
 
-.a-verticalchild a {
-  display: block;
-  margin-bottom: 0.3125rem;
-  padding-left: 1rem;
-}
-
 .a-ul {
   max-width: 90%;
 }
@@ -364,25 +392,18 @@ li a {
   position: relative;
 }
 
+.headerHolder * {
+  margin: 0;
+}
+
 .imgHolder div * {
   margin: 2px;
   font-size: 14px;
 }
 
-#imgHolder img {
-  width: 6rem;
-  height: 5.5rem;
-  margin-top: 0;
-  padding: 2px;
-}
-
 .headerHolder {
   display: flex;
   background-color: rgba(255, 68, 34, 0.06);
-}
-
-.headerHolder * {
-  margin: 0;
 }
 
 .headerHolder header:first-of-type {
@@ -399,11 +420,6 @@ li a {
   color: #f42;
 }
 
-.footer-list li h4 {
-  margin-top: 0;
-  margin-bottom: 0;
-}
-
 .details {
   text-align: right;
 }
@@ -417,10 +433,6 @@ li a {
   display: flex;
   justify-content: space-between;
   margin-bottom: 20px;
-}
-
-.litle-part-deals p {
-  margin: 0 0 0 16px;
 }
 
 .price-linetrough {
@@ -445,24 +457,9 @@ li a {
   width: 100%;
 }
 
-.deals-card h4 {
-  margin-top: 0;
-  margin-bottom: 0;
-}
-
 /* deals */
 
 .lastdeal {
-  display: block;
-  background-image: url("https://cdnp0.stackassets.com/0799bf00352de2d2111fa7580a4aeb4d5e36829c/store/831574f40ca85b498631ae2881f81d02cd9eedd411afd5c0c8f689969ad6/sale_19040_primary_image.jpg");
-  height: 75px;
-  width: 75px;
-  margin-bottom: 5px;
-  background-size: contain;
-  background-repeat: no-repeat;
-}
-
-.deals-card .bck-img a {
   display: block;
   background-image: url("https://cdnp0.stackassets.com/0799bf00352de2d2111fa7580a4aeb4d5e36829c/store/831574f40ca85b498631ae2881f81d02cd9eedd411afd5c0c8f689969ad6/sale_19040_primary_image.jpg");
   height: 75px;
@@ -482,30 +479,11 @@ footer {
   background-color: black;
 }
 
-.topFooter {
-  height: 10.0625rem;
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-}
-
-.containerInTopFooter p {
-  margin: 0;
-  color: grey;
-  text-align: center;
-}
-
 .containerInTopFooter {
   padding: 0 15px 0;
   justify-content: center;
   align-items: center;
   height: 91px;
-}
-
-.topUl img {
-  width: 40px;
-  height: 40px;
 }
 
 .topUl,
@@ -586,6 +564,15 @@ footer {
     width: 100%;
   }
 
+  .bottom-part li {
+    list-style-type: none;
+    padding: 10px;
+  }
+
+  .footer-list li {
+    padding: 0;
+  }
+
   .left-top ul li,
   .right-top ul li {
     padding-left: 10px;
@@ -606,11 +593,6 @@ footer {
     width: 100%;
     height: 100%;
     margin: 0;
-  }
-
-  .bottom-part li {
-    list-style-type: none;
-    padding: 10px;
   }
 
   .bottom-part ul {
@@ -655,11 +637,9 @@ footer {
 
   .flex-container {
     display: grid;
-    display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto;
-    gap: 1rem solid;
-    gap: 10px;
+    gap: 1rem;
   }
 
   .card {
@@ -688,36 +668,17 @@ footer {
     font-weight: 500;
   }
 
-  .flex-container {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: auto;
-    gap: 1rem solid;
+  .topLogo a {
+    height: 100px;
   }
 
-  .card {
-    display: flex;
-    flex-direction: column;
-  }
-
-  .bck-img a {
-    width: 100%;
-    background-size: cover;
-    background-repeat: no-repeat;
-    line-height: 3rem;
-  }
-
-  .card-bottom h4 {
-    font-size: 0.8rem;
-    font-weight: 500;
-  }
-
-  .litle-part a,
-  .litle-part span p {
-    font-size: 0.6rem;
-    color: #aaa;
-    padding-top: 6px;
-    font-weight: 500;
+  .dropdownContent a {
+    color: gray;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-size: 12px;
+    z-index: 21;
   }
 
   .vertical-child div a {
@@ -751,16 +712,12 @@ footer {
   .secondNews {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 5;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
     gap: 20px;
   }
 
   .footer-list {
     padding-left: 10px;
-  }
-
-  .footer-list li {
-    padding: 0;
   }
 
   .deals ul {
@@ -776,10 +733,6 @@ footer {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 20px;
-  }
-
-  .card-bottom h4 {
-    font-size: 20px;
   }
 
   .deals-card .bck-img a {
@@ -809,21 +762,8 @@ footer {
     height: 100px;
   }
 
-  .top-part {
-    height: 30px;
-    width: auto;
-  }
-
-  .bottom-part li {
-    overflow-y: hidden;
-  }
-
   .topLogo a img {
     height: auto;
-  }
-
-  .topLogo a {
-    height: 100px;
   }
 
   .topLogo {
@@ -849,15 +789,6 @@ footer {
     max-height: 100%;
     z-index: 20;
     overflow-y: hidden;
-  }
-
-  .dropdownContent a {
-    color: gray;
-    padding: 12px 16px;
-    text-decoration: none;
-    display: block;
-    font-size: 12px;
-    z-index: 21;
   }
 
   .see:hover .dropdownContent {
@@ -918,7 +849,6 @@ footer {
   .bigimglink {
     z-index: 5;
   }
-
 
   .headerpart {
     position: relative;
