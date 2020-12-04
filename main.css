@@ -564,15 +564,6 @@ footer {
     justify-content: space-around;
   }
 
-  .headerpart img {
-    z-index: 4;
-    display: block;
-    height: 110px;
-    width: 320px;
-    float: left;
-    position: relative;
-  }
-
   .topLogo img {
     height: 80px;
     width: 100px;
@@ -880,6 +871,15 @@ footer {
     margin-top: 70px;
   }
 
+  .headerpart img {
+    z-index: 4;
+    display: block;
+    height: 110px;
+    width: 320px;
+    float: left;
+    position: relative;
+  }
+  
   .top-part {
     height: 30px;
   }
