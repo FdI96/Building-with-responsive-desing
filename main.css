@@ -225,7 +225,28 @@ li a {
   margin-bottom: 0;
 }
 
-.fundingSec-links a
+.a-verticalchild a {
+  display: block;
+  margin-bottom: 0.3125rem;
+  padding-left: 1rem;
+}
+
+.secondNews h4,
+.secondNews h3 a {
+  color: #fff;
+}
+
+.imgHolder div {
+  position: absolute;
+  top: 75%;
+  left: 5%;
+}
+
+.vertical-child div a:hover {
+  color: black;
+}
+
+.fundingSec-links a,
 .funding-sec header h2 a {
   color: #f42;
 }
@@ -247,6 +268,11 @@ li a {
   position: relative;
 }
 
+.card-bottom h4,
+.card-bottom p {
+  color: black;
+}
+
 .card-bottom h4 {
   margin-left: 18px;
 }
@@ -264,28 +290,14 @@ li a {
   height: 15.375rem;
 }
 
-.vertical-child div a:hover {
-  color: black;
-}
-
 .hide {
   display: none;
-}
-
-.card-bottom h4,
-.card-bottom p {
-  color: black;
-}
-
-.secondNews h4,
-.secondNews h3 a {
-  color: #fff;
 }
 
 .inside-child * {
   margin-top: 0;
   margin-bottom: 0;
-  color: black
+  color: black;
 }
 
 .inside-child h6 {
@@ -301,13 +313,7 @@ li a {
 .a-verticalchild {
   display: flex;
   flex-direction: column;
-  padding: .4rem;
-}
-
-.a-verticalchild a {
-  display: block;
-  margin-bottom: 0.3125rem;
-  padding-left: 1rem;
+  padding: 0.4rem;
 }
 
 .a-ul {
@@ -315,19 +321,13 @@ li a {
 }
 
 .a-ul a ul {
-  margin-left: 0px;
+  margin-left: 0rem;
   padding-left: 16px;
   margin-bottom: 18px;
 }
 
 .imgHolder {
   position: relative;
-}
-
-.imgHolder div {
-  position: absolute;
-  top: 75%;
-  left: 5%;
 }
 
 .imgHolder div * {
@@ -541,6 +541,15 @@ footer {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+  }
+
+  .headerpart img {
+    z-index: 4;
+    display: block;
+    height: 110px;
+    width: 320px;
+    float: left;
+    position: relative;
   }
 
   .topLogo img {
@@ -897,15 +906,7 @@ footer {
     z-index: 5;
   }
 
-  .headerpart img {
-    z-index: 4;
-    display: block;
-    height: 110px;
-    width: 320px;
-    float: left;
-    position: relative;
-  }
-
+  
   .headerpart {
     position: relative;
     height: 300px;
@@ -954,13 +955,11 @@ footer {
   .flex-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-row: 1fr 1fr;
   }
 
   .secondNews {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-row: 1fr 1fr 1fr;
   }
 
   .bck-img {
@@ -991,10 +990,9 @@ footer {
   .vertical-container1 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
-    gap: 4rem;
     width: 100%;
     height: 300px;
-    gap: .5rem;
+    gap: 0.5rem;
     box-sizing: border-box;
   }
 
@@ -1033,5 +1031,4 @@ footer {
   .see:hover .dropdownContent {
     display: block;
   }
-
 }
