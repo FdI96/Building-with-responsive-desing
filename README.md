@@ -41,7 +41,7 @@ size of the window and our web page may response to that re-sizing the elements.
 
 Give a \* if you like the project
 
-🤝 Contributing
+## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
@@ -49,7 +49,6 @@ Feel free to check the issues page. Show your support
 
 Give a ⭐️ if you like this project!
 
-📝 License
-MIT
+## 📝 License MIT
 
 Microverse Project 2: Building with responsive desing...
