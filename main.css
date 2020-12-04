@@ -1,0 +1,987 @@
+.headerpart {
+  display: none;
+}
+
+#main-nav {
+  display: none;
+}
+
+body {
+  margin: 0;
+}
+
+body * {
+  text-decoration: none;
+  list-style: none;
+  overflow-x: hidden;
+}
+
+#mainFooter,
+.containerInTopFooter,
+.topFooter {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.topFooter {
+  background-color: #131313;
+}
+
+/* Start the styling of the imgs and mobilebar */
+
+#mobile-nav .search-menu {
+  display: flex;
+  align-items: center;
+}
+
+.topUl img {
+  width: 40px;
+  height: 40px;
+}
+
+.imgHolder1 img {
+  width: 6rem;
+  height: 5.5rem;
+  margin-top: 0;
+  padding: 2px;
+}
+
+.secondNews .imgHolder img {
+  height: 20rem;
+  width: 100%;
+}
+
+.vertical-container1 .vertical-child .grandChild img {
+  width: 3rem;
+  height: 3rem;
+  max-width: 3rem;
+  min-width: 3rem;
+  min-height: 3rem;
+  max-height: 3rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 0.7rem;
+  z-index: 10;
+}
+
+#mobile-nav .search-menu img:nth-of-type(1) {
+  width: 35px;
+  height: 30px;
+  align-self: center;
+}
+
+#mobile-nav {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  overflow: hidden;
+  background-color: #fff;
+  z-index: 1000;
+}
+
+.mobilenav-container {
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+}
+
+.dropdown {
+  display: block;
+}
+
+.three-img {
+  display: flex;
+  flex-direction: column;
+  height: 600px;
+  justify-content: space-between;
+}
+
+.paddingart {
+  padding: 5px;
+  height: 100%;
+  width: 100%;
+}
+
+.top-container,
+.mid-container,
+.down-container {
+  background-position: 50%;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.top-container {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2013/02/cyberlocks-730x422.jpg");
+}
+
+.mid-container {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/11/Untitled-design-2020-11-30T173709.270-796x417.png");
+}
+
+.down-container {
+  background-image: url("https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/11/1-copy-8-796x417.jpg");
+}
+
+.dateimg {
+  display: none;
+}
+
+.headingtitle {
+  font-size: 20px;
+  color: white;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 20px;
+}
+
+.footimg-link {
+  padding-left: 20px;
+}
+
+li a {
+  text-decoration: none;
+  color: gray;
+}
+
+.footimg-link a {
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+}
+
+.listimg {
+  padding-left: 20px;
+  font-size: 12px;
+  color: grey;
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+}
+
+.main-container {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.news {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-container li {
+  padding: 5px;
+}
+
+.flex-container {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.card h4 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.card {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.bck-img a {
+  display: block;
+  background-image: url("https://cdnp0.stackassets.com/0799bf00352de2d2111fa7580a4aeb4d5e36829c/store/831574f40ca85b498631ae2881f81d02cd9eedd411afd5c0c8f689969ad6/sale_19040_primary_image.jpg");
+  height: 75px;
+  width: 75px;
+  margin-bottom: 5px;
+}
+
+.bck-img {
+  width: auto;
+  padding-right: 10px;
+}
+
+.card-bottom {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.litle-part span {
+  padding-left: 10px;
+  font-size: 0.6rem;
+  color: gray;
+}
+
+.litle-part p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.litle-part {
+  display: flex;
+  flex-direction: row;
+}
+
+/* Here end the styling of the "Latest News section" */
+
+/* Here start the styling of the "Latest founding rounds on Index.co" section */
+
+.funding-sec header {
+  height: 7.625rem;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 1rem;
+  width: 100%;
+}
+
+.funding-sec h2 {
+  margin-bottom: 0;
+}
+
+.a-verticalchild a {
+  display: block;
+  margin-bottom: 0.3125rem;
+  padding-left: 1rem;
+}
+
+.fundingSec-links a {
+  padding-right: 10px;
+  border-right: solid 1px red;
+  padding-left: 10px;
+  color: #f42;
+}
+
+.secondNews h4,
+.secondNews h3 a {
+  color: #fff;
+}
+
+.imgHolder div {
+  position: absolute;
+  top: 75%;
+  left: 5%;
+}
+
+.litle-part-deals p {
+  margin: 0 0 0 16px;
+}
+
+.card-bottom h4,
+.card-bottom p {
+  color: black;
+}
+
+.containerInTopFooter p {
+  margin: 0;
+  color: grey;
+  text-align: center;
+}
+
+.imgHolder div p,
+.imgHolder div p a {
+  color: lightgray;
+}
+
+.funding-sec header h2 a {
+  color: #f42;
+}
+
+.deals-card .bck-img a {
+  display: block;
+  background-image: url("https://cdnp0.stackassets.com/0799bf00352de2d2111fa7580a4aeb4d5e36829c/store/831574f40ca85b498631ae2881f81d02cd9eedd411afd5c0c8f689969ad6/sale_19040_primary_image.jpg");
+  height: 75px;
+  width: 75px;
+  margin-bottom: 5px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.vertical-child div a:hover {
+  color: black;
+}
+
+.fundingSec-links {
+  display: flex;
+  flex-direction: column;
+}
+
+.vertical-container1 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  height: auto;
+  width: 100%;
+}
+
+.vertical-container1 .vertical-child .grandChild {
+  position: relative;
+}
+
+.card-bottom h4 {
+  margin-left: 10px;
+}
+
+.deals-card h4 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.footer-list li h4 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.vertical-container1 a .grandChild h4 {
+  color: #fff;
+  background-color: #f42;
+  padding-left: 84px;
+  margin: 0;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.vertical-child {
+  height: 15.375rem;
+}
+
+.hide {
+  display: none;
+}
+
+.inside-child * {
+  margin-top: 0;
+  margin-bottom: 0;
+  color: black;
+}
+
+.inside-child h6 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.inside-child {
+  background-color: rgba(255, 68, 34, 0.08);
+  padding: 10px 16px 10px 84px;
+}
+
+.a-verticalchild {
+  display: flex;
+  flex-direction: column;
+  padding: 0.4rem;
+}
+
+.a-ul {
+  max-width: 90%;
+}
+
+.a-ul a ul {
+  margin-left: 0;
+  padding-left: 16px;
+  margin-bottom: 18px;
+}
+
+.imgHolder {
+  position: relative;
+}
+
+.headerHolder * {
+  margin: 0;
+}
+
+.imgHolder div * {
+  margin: 2px;
+  font-size: 14px;
+}
+
+.headerHolder {
+  display: flex;
+  background-color: rgba(255, 68, 34, 0.06);
+}
+
+.headerHolder header:first-of-type {
+  padding: 10px 14px 0;
+}
+
+.footer-list li {
+  font-size: 12px;
+  height: 1.875rem;
+  padding: 6px 0;
+  font-weight: 400;
+  list-style: circle;
+  list-style-type: disc;
+  color: #f42;
+}
+
+.details {
+  text-align: right;
+}
+
+.deals-h h2 {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.deals-h {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.price-linetrough {
+  text-decoration: line-through;
+  color: #aaa;
+  font-size: 12px;
+  vertical-align: baseline;
+}
+
+.litle-part-deals span:first-child {
+  margin-right: 5px;
+}
+
+.litle-part-deals {
+  display: flex;
+  flex-direction: row;
+  padding-top: 4px;
+}
+
+.deals-list {
+  padding-left: 0;
+  width: 100%;
+}
+
+/* deals */
+
+.lastdeal {
+  display: block;
+  background-image: url("https://cdnp0.stackassets.com/0799bf00352de2d2111fa7580a4aeb4d5e36829c/store/831574f40ca85b498631ae2881f81d02cd9eedd411afd5c0c8f689969ad6/sale_19040_primary_image.jpg");
+  height: 75px;
+  width: 75px;
+  margin-bottom: 5px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.deals-card {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+footer {
+  background-color: black;
+}
+
+.containerInTopFooter {
+  padding: 0 15px 0;
+  justify-content: center;
+  align-items: center;
+  height: 91px;
+}
+
+.topUl,
+.botUl {
+  display: flex;
+  flex-direction: row;
+  margin-top: 0;
+  margin-bottom: 0;
+  justify-content: center;
+}
+
+.botUl li {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.botUl {
+  font-size: 13px;
+  padding-left: 0;
+}
+
+.topUl {
+  margin-bottom: 20px;
+  padding: 0;
+}
+
+.niceNew .footer-list {
+  padding: 0;
+}
+
+/* Here we start the first Media Querie */
+
+@media (min-width: 426px) {
+  .headerpart {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+
+  body * {
+    text-decoration: none;
+    list-style: none;
+    overflow-x: hidden;
+  }
+
+  #mobile-nav {
+    display: none;
+  }
+
+  .bothNavs ul {
+    padding-left: 0;
+  }
+
+  .bothNavs {
+    height: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+  }
+
+  .topLogo img {
+    height: 80px;
+    width: 100px;
+  }
+
+  .top-part ul {
+    margin: 0;
+  }
+
+  .top-part li {
+    font-size: 10px;
+    overflow-y: hidden;
+  }
+
+  .top-part {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    background-color: #131313;
+    width: 100%;
+    height: 20px;
+  }
+
+  .bottom-part li {
+    list-style-type: none;
+    padding: 10px;
+    font-size: 10px;
+    overflow-y: hidden;
+  }
+
+  .footer-list li {
+    padding: 0;
+  }
+
+  .left-top ul li,
+  .right-top ul li {
+    padding-left: 10px;
+  }
+
+  .right-top ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    margin: 0;
+  }
+
+  .left-top ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+  }
+
+  .bottom-part ul {
+    display: flex;
+    flex-direction: row;
+    margin: 0%;
+    background-color: white;
+    width: 100%;
+    height: 30px;
+  }
+
+  .bottom-part {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 30px;
+    width: 100%;
+  }
+
+  .three-img {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 175px 175px;
+    grid-template-areas:
+      "t t m"
+      "t t d";
+    height: 80%;
+    gap: 20px;
+    overflow-y: hidden;
+  }
+
+  .first {
+    grid-area: t;
+  }
+
+  .second {
+    grid-area: m;
+  }
+
+  .third {
+    grid-area: d;
+  }
+
+  .flex-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 1rem;
+  }
+
+  .card {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .bck-img a {
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    line-height: 3rem;
+    height: 8.4375rem;
+  }
+
+  .card-bottom h4 {
+    font-size: 0.8rem;
+    font-weight: 500;
+  }
+
+  .litle-part a,
+  .litle-part span p {
+    font-size: 0.6rem;
+    color: #aaa;
+    padding-top: 6px;
+    font-weight: 500;
+  }
+
+  .topLogo a {
+    height: 100px;
+  }
+
+  .dropdownContent a {
+    color: gray;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-size: 12px;
+    z-index: 21;
+  }
+
+  .vertical-child div a {
+    font-size: 12px;
+    color: grey;
+  }
+
+  .funding-sec header {
+    height: auto;
+  }
+
+  .fundingSec-links {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    height: auto;
+  }
+
+  .vertical-container1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    height: auto;
+    gap: 1rem;
+  }
+
+  .a-verticalchild,
+  .a-ul {
+    background-color: rgba(255, 68, 34, 0.03);
+  }
+
+  .secondNews {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    gap: 20px;
+  }
+
+  .footer-list {
+    padding-left: 10px;
+  }
+
+  .deals ul {
+    padding-left: 0;
+  }
+
+  .deals {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .deals-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+  }
+
+  .deals-card .bck-img a {
+    height: 12rem;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .deals-card {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .headerpart img {
+    display: none;
+  }
+
+  #main-nav {
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    height: 100px;
+  }
+
+  .topLogo a img {
+    height: auto;
+  }
+
+  .topLogo {
+    overflow-y: hidden;
+  }
+
+  main {
+    margin-top: 60px;
+  }
+
+  .see button {
+    cursor: pointer;
+    border: none;
+    background-color: black;
+    color: gray;
+  }
+
+  .dropdownContent {
+    display: none;
+    position: absolute;
+    background-color: black;
+    max-width: 100%;
+    max-height: 100%;
+    z-index: 20;
+    overflow-y: hidden;
+  }
+
+  .see:hover .dropdownContent {
+    display: block;
+  }
+}
+
+@media (min-width: 769px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  main {
+    margin-top: 70px;
+  }
+
+  .headerpart img {
+    z-index: 4;
+    display: block;
+    height: 110px;
+    width: 320px;
+    float: left;
+    position: relative;
+  }
+
+  .top-part {
+    height: 30px;
+  }
+
+  .bottom-part li {
+    overflow-y: hidden;
+  }
+
+  .bottom-part {
+    height: 50px;
+    background-color: white;
+  }
+
+  .bothNavs {
+    height: 50px;
+    overflow-y: hidden;
+  }
+
+  .topLogo {
+    overflow-y: hidden;
+    display: none;
+  }
+
+  .topLogo a img {
+    height: 69px;
+  }
+
+  .veryBigDiv {
+    width: 84%;
+    margin: 0 auto;
+  }
+
+  .bigimglink {
+    z-index: 5;
+  }
+
+  .headerpart {
+    position: relative;
+    height: 300px;
+    justify-content: space-between;
+    display: flex;
+    overflow-x: hidden;
+  }
+
+  .dateimg {
+    display: contents;
+    color: white;
+    z-index: 7;
+  }
+
+  .top-container {
+    z-index: 0;
+  }
+
+  .paddingart {
+    position: relative;
+    padding: 0;
+  }
+
+  .red-gradient {
+    background-image: linear-gradient(to bottom right, red, transparent);
+    background-size: contain, cover;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+  }
+
+  .main-container,
+  .funding-sec,
+  .secondNews,
+  .deals {
+    width: auto;
+    height: auto;
+  }
+
+  .three-img {
+    gap: 5px;
+    overflow-y: hidden;
+  }
+
+  .flex-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+  }
+
+  .secondNews {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+
+  .bck-img {
+    padding: 0;
+  }
+
+  .bck-img a {
+    margin-bottom: 5px;
+  }
+
+  .deals-list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
+
+  .main-container,
+  .secondNews,
+  .deals {
+    width: auto;
+  }
+
+  .hide {
+    display: block;
+    margin-top: 0;
+  }
+
+  .vertical-container1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 100%;
+    height: 300px;
+    gap: 0.5rem;
+    box-sizing: border-box;
+  }
+
+  .a-ul {
+    max-width: 90%;
+    max-width: 100%;
+  }
+
+  .funding-sec {
+    margin: auto;
+  }
+
+  .see button {
+    cursor: pointer;
+    border: none;
+    background-color: black;
+    color: gray;
+  }
+
+  .dropdownContent {
+    display: none;
+    position: absolute;
+    background-color: black;
+    z-index: 20;
+    overflow-y: hidden;
+  }
+
+  .dropdownContent a {
+    color: gray;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    font-size: 12px;
+  }
+
+  .see:hover .dropdownContent {
+    display: block;
+  }
+}
