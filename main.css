@@ -6,6 +6,9 @@
   display: none;
 }
 
+body {
+  margin: 0;
+}
 body * {
   text-decoration: none;
   list-style: none;
@@ -44,6 +47,11 @@ body * {
   left: 0;
   margin: 0.7rem;
   z-index: 10;
+}
+
+.secondNews .imgHolder img {
+  height: 20rem;
+  width: 100%;
 }
 
 #mobile-nav .search-menu img:nth-of-type(1) {
@@ -290,6 +298,26 @@ li a {
   height: 15.375rem;
 }
 
+.fundingSec-links a {
+  padding-right: 10px;
+  border-right: solid 1px red;
+  padding-left: 10px;
+  color: #f42;
+}
+
+.funding-sec header h2 a {
+  color: #f42;
+}
+
+.imgHolder div p,
+.imgHolder div p a {
+  color: lightgray;
+}
+
+.vertical-child div a:hover {
+  color: black;
+}
+
 .hide {
   display: none;
 }
@@ -316,12 +344,18 @@ li a {
   padding: 0.4rem;
 }
 
+.a-verticalchild a {
+  display: block;
+  margin-bottom: 0.3125rem;
+  padding-left: 1rem;
+}
+
 .a-ul {
   max-width: 90%;
 }
 
 .a-ul a ul {
-  margin-left: 0rem;
+  margin-left: 0;
   padding-left: 16px;
   margin-bottom: 18px;
 }
@@ -335,16 +369,6 @@ li a {
   font-size: 14px;
 }
 
-.imgHolder div p,
-.imgHolder div p a {
-  color: lightgray;
-}
-
-.secondNews .imgHolder img {
-  height: 20rem;
-  width: 100%;
-}
-
 #imgHolder img {
   width: 6rem;
   height: 5.5rem;
@@ -354,11 +378,11 @@ li a {
 
 .headerHolder {
   display: flex;
-  background-color: rgba(255, 68, 34, .06);
+  background-color: rgba(255, 68, 34, 0.06);
 }
 
 .headerHolder * {
-  margin: 0px;
+  margin: 0;
 }
 
 .headerHolder header:first-of-type {
@@ -372,7 +396,7 @@ li a {
   font-weight: 400;
   list-style: circle;
   list-style-type: disc;
-  color: #ff4422
+  color: #f42;
 }
 
 .footer-list li h4 {
@@ -426,7 +450,7 @@ li a {
   margin-bottom: 0;
 }
 
-/* deals*/
+/* deals */
 
 .lastdeal {
   display: block;
@@ -543,15 +567,6 @@ footer {
     justify-content: space-around;
   }
 
-  .headerpart img {
-    z-index: 4;
-    display: block;
-    height: 110px;
-    width: 320px;
-    float: left;
-    position: relative;
-  }
-
   .topLogo img {
     height: 80px;
     width: 100px;
@@ -649,7 +664,7 @@ footer {
 
   .card {
     display: flex;
-    flex-direction: column
+    flex-direction: column;
   }
 
   .bck-img a {
@@ -682,7 +697,7 @@ footer {
 
   .card {
     display: flex;
-    flex-direction: column
+    flex-direction: column;
   }
 
   .bck-img a {
@@ -699,7 +714,7 @@ footer {
 
   .litle-part a,
   .litle-part span p {
-    font-size: .6rem;
+    font-size: 0.6rem;
     color: #aaa;
     padding-top: 6px;
     font-weight: 500;
@@ -709,20 +724,9 @@ footer {
     font-size: 12px;
     color: grey;
   }
-  .funding-sec header h2 a {
-    color: #f42;
-  }
 
   .funding-sec header {
     height: auto;
-  }
-
-  .fundingSec-links a {
-    padding-right: 10px;
-    border-right: solid 1px red;
-    padding-left: 10px;
-    color: #f42;
-
   }
 
   .fundingSec-links {
@@ -741,7 +745,7 @@ footer {
 
   .a-verticalchild,
   .a-ul {
-    background-color: rgba(255, 68, 34, .03);
+    background-color: rgba(255, 68, 34, 0.03);
   }
 
   .secondNews {
@@ -870,6 +874,15 @@ footer {
     margin-top: 70px;
   }
 
+  .headerpart img {
+    z-index: 4;
+    display: block;
+    height: 110px;
+    width: 320px;
+    float: left;
+    position: relative;
+  }
+
   .top-part {
     height: 30px;
   }
@@ -879,7 +892,7 @@ footer {
   }
 
   .bottom-part {
-    height: 40px;
+    height: 50px;
     background-color: white;
   }
 
@@ -906,10 +919,11 @@ footer {
     z-index: 5;
   }
 
-  
+
   .headerpart {
     position: relative;
-    height: 300px;
+    height: 296px;
+    width: 50%;
     justify-content: space-between;
     display: flex;
     overflow-x: hidden;
