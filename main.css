@@ -885,15 +885,21 @@ footer {
   }
 
   .headerpart img {
-    position: relative;
-    right: 50px;
     z-index: 4;
     display: block;
+    height: 110px;
+    width: 320px;
+    float: left;
+    position: relative;
+
   }
 
   .headerpart {
     position: relative;
-    bottom: 200px;
+    height: 300px;
+    justify-content: space-between;
+    display: flex;
+    overflow-x: hidden;
   }
 
   .dateimg {
