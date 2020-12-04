@@ -18,7 +18,7 @@ size of the window and our web page may response to that re-sizing the elements.
 
 ## LIVE DEMO
 
-[Live Demo Link]("put the live Demo Link Here")
+[Live Demo Link](https://fdi96.github.io/Building-with-responsive-desing/)
 
 ##  AUTHORS
 
