@@ -853,7 +853,7 @@ footer {
   .headerpart {
     position: relative;
     height: 296px;
-    width: 58%;
+    width: 56%;
     justify-content: space-between;
     display: flex;
     overflow-x: hidden;
