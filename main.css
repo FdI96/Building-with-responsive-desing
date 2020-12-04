@@ -9,7 +9,7 @@
 body * {
   text-decoration: none;
   list-style: none;
-  color: #ff4422;
+  color: #f42;
   overflow-x: hidden;
 }
 
@@ -112,6 +112,11 @@ body * {
   padding-left: 20px;
 }
 
+li a {
+  text-decoration: none;
+  color: gray;
+}
+
 .footimg-link a {
   font-size: 20px;
   color: white;
@@ -126,12 +131,6 @@ body * {
   display: flex;
   flex-direction: row;
 }
-
-li a {
-  text-decoration: none;
-  color: gray;
-}
-
 /* Ends the styling of the imgs and mobilebar */
 
 /* Start the styling of the "Latest News Section */
@@ -271,7 +270,6 @@ li a {
 
 .vertical-child div a:hover {
   color: black;
-
 }
 
 .hide {
@@ -368,7 +366,6 @@ li a {
   background-color: rgba(255, 68, 34, .06);
 }
 
-
 .headerHolder * {
   margin: 0px;
 }
@@ -391,7 +388,6 @@ li a {
   margin-top: 0;
   margin-bottom: 0;
 }
-
 
 .details {
   text-align: right;
@@ -460,8 +456,6 @@ li a {
   background-size: contain;
   background-repeat: no-repeat;
 }
-
-
 
 .deals-card {
   display: flex;
@@ -545,7 +539,6 @@ footer {
   #mobile-nav {
     display: none;
   }
-
 
   .bothNavs ul {
     padding-left: 0;
@@ -668,13 +661,13 @@ footer {
   }
 
   .card-bottom h4 {
-    font-size: .8rem;
+    font-size: 0.8rem;
     font-weight: 500;
   }
 
   .litle-part a,
   .litle-part span p {
-    font-size: .6rem;
+    font-size: 0.6rem;
     color: #aaa;
     padding-top: 6px;
     font-weight: 500;
@@ -700,7 +693,7 @@ footer {
   }
 
   .card-bottom h4 {
-    font-size: .8rem;
+    font-size: 0.8rem;
     font-weight: 500;
   }
 
@@ -829,7 +822,6 @@ footer {
     overflow-y: hidden;
   }
 
-
   main {
     margin-top: 60px;
   }
@@ -917,7 +909,6 @@ footer {
     width: 320px;
     float: left;
     position: relative;
-
   }
 
   .headerpart {
