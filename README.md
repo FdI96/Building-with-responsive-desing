@@ -5,7 +5,7 @@ This project is a clone of a the https://thenextweb.com/
 this website can be viewd better on the screen size of of 1920 X 1080 in Mozilla firefox browser or chrome.
 you can also download the repo and open the ''index.html" file with Mozilla Firefox.
 
-![screenshot](images/nextwebclone.png)
+![screenshot](images/newScreenshot.png)
 
 The purpose of these project is to help us understand a way of creating a web page similar to "The next web", website
 utilizing media querys, and all the concepts that we learned about HTML and CSS like
@@ -18,7 +18,7 @@ size of the window and our web page may response to that re-sizing the elements.
 
 ## LIVE DEMO
 
-[Live Demo Link]("put the live Demo Link Here")
+[Live Demo Link](https://fdi96.github.io/Building-with-responsive-desing/)
 
 ##  AUTHORS
 
