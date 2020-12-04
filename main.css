@@ -32,6 +32,20 @@ body * {
   align-items: center;
 }
 
+.vertical-container1 .vertical-child .grandChild img {
+  width: 3rem;
+  height: 3rem;
+  max-width: 3rem;
+  min-width: 3rem;
+  min-height: 3rem;
+  max-height: 3rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  margin: 0.7rem;
+  z-index: 10;
+}
+
 #mobile-nav .search-menu img:nth-of-type(1) {
   width: 35px;
   height: 30px;
@@ -131,9 +145,6 @@ li a {
   display: flex;
   flex-direction: row;
 }
-/* Ends the styling of the imgs and mobilebar */
-
-/* Start the styling of the "Latest News Section */
 
 .main-container {
   padding-left: 5px;
@@ -214,8 +225,8 @@ li a {
   margin-bottom: 0;
 }
 
-.funding-sec header h2 a,
-.fundingSec-links a {
+.fundingSec-links a
+.funding-sec header h2 a {
   color: #f42;
 }
 
@@ -236,36 +247,21 @@ li a {
   position: relative;
 }
 
+.card-bottom h4 {
+  margin-left: 18px;
+}
+
 .vertical-container1 a .grandChild h4 {
   color: #fff;
-  background-color: #ff4422;
+  background-color: #f42;
   padding-left: 84px;
   margin: 0;
   padding-top: 10px;
   padding-bottom: 10px;
 }
 
-.vertical-container1 .vertical-child .grandChild img {
-  width: 3rem;
-  height: 3rem;
-  max-width: 3rem;
-  min-width: 3rem;
-  min-height: 3rem;
-  max-height: 3rem;
-  position: absolute;
-  top: 0;
-  left: 0;
-  margin: 0.7rem;
-  z-index: 10;
-}
-
 .vertical-child {
   height: 15.375rem;
-}
-
-.vertical-child div a {
-  font-size: 12px;
-  color: grey;
 }
 
 .vertical-child div a:hover {
@@ -281,11 +277,6 @@ li a {
   color: black;
 }
 
-.card-bottom h4 {
-  margin-left: 18px;
-}
-
-/*                     colors       */
 .secondNews h4,
 .secondNews h3 a {
   color: #fff;
@@ -705,6 +696,10 @@ footer {
     font-weight: 500;
   }
 
+  .vertical-child div a {
+    font-size: 12px;
+    color: grey;
+  }
   .funding-sec header h2 a {
     color: #f42;
   }
