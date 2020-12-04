@@ -886,6 +886,7 @@ footer {
 
   .topLogo {
     overflow-y: hidden;
+    display: none;
   }
 
   .topLogo a img {
