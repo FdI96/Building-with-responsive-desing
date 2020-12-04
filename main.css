@@ -179,7 +179,7 @@ li a {
 .card-bottom {
   display: flex;
   flex-direction: column;
-  width: auto;
+  width: 100%;
 }
 
 .litle-part span {
@@ -280,6 +280,10 @@ li a {
   color: black;
 }
 
+.card-bottom h4{
+  margin-left: 18px;
+}
+
 /*                     colors       */
 .secondNews h4,
 .secondNews h3 a {
@@ -373,7 +377,7 @@ li a {
 .footer-list li {
   font-size: 12px;
   height: 1.875rem;
-  padding: 6px 0 6px 14px;
+  padding: 6px 0;
   font-weight: 400;
   list-style: circle;
   list-style-type: disc;
@@ -384,6 +388,7 @@ li a {
   margin-top: 0;
   margin-bottom: 0;
 }
+
 
 .details {
   text-align: right;
@@ -401,8 +406,7 @@ li a {
 }
 
 .litle-part-deals p {
-  margin-top: 0;
-  margin-bottom: 0;
+  margin: 0 0 0 16px;
 }
 
 .price-linetrough {
@@ -513,6 +517,10 @@ footer {
 
 .topUl {
   margin-bottom: 20px;
+  padding: 0;
+}
+
+.niceNew .footer-list{
   padding: 0;
 }
 
