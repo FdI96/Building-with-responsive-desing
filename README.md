@@ -31,7 +31,7 @@ size of the window and our web page may response to that re-sizing the elements.
 - Twitter: [@federicolopezc7](https://twitter.com/federicolopezc7)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/federico-ignacio-3285411a4/)
 
-👤 **Ismael Antonio**
+👤 **Iyunda Ismael Antonio**
 
 - GitHub: [@ixboy](https://github.com/ixboy)
 - Twitter: [@ismaelixboy](https://twitter.com/ismaelixboy)
